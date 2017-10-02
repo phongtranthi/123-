@@ -1,0 +1,29 @@
+<suite name="Multi Browsers" parallel="tests" thread-count ="3">
+ 
+    <test name="run on Firefox">
+	<parameter name="browser" value="firefox"/>
+ 	<parameter name="sUser" value="mngr96534"/>
+	<parameter name="sPass" value="zumEvyr"/>
+	 <classes>
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers"/>
+    </classes>
+    </test>
+   <test name="run on Chrome">
+	<parameter name="browser" value="chrome"/>
+ 	<parameter name="sUser" value="mngr9226"/>
+	<parameter name="sPass" value="zumEvyr"/>
+	 <classes>
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers"/>
+    </classes>
+    </test>
+    <test name="run on IE">
+	<parameter name="browser" value="ie"/>
+ 	<parameter name="sUser" value="test"/>
+	<parameter name="sPass" value="testpass"/>
+	 <classes>
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers"/>
+    </classes>
+    </test>
+   
+ 
+</suite>

@@ -1,0 +1,19 @@
+<suite name="Parameter">
+ 
+    <test name="test1">
+ 
+	<parameter name="sUser" value="mngr96534"/>
+	<parameter name="sPass" value="zumEvyr"/>
+	 <classes>
+      <class name="webdriver_10_TestNG.TestNG_Parameters"/>
+    </classes>
+    </test>
+    <test name="test2">
+ 
+	<parameter name="sUser" value="mngr99224"/>
+	<parameter name="sPass" value="uqupEbe"/>
+	<classes>
+      <class name="webdriver_10_TestNG.TestNG_Parameters"/>
+    </classes>
+   </test> <!-- Test -->
+</suite> <!-- Suite -->

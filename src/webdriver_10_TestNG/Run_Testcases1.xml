@@ -1,0 +1,13 @@
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="group2"/>
+  <include name="group1"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="webdriver_10_TestNG.TestNG_Annotation_02"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

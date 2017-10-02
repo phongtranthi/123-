@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="sUser" value="test"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="sPass" value="testpass"/>
+  <test name="run on Firefox">
+    <parameter name="sUser" value="mngr96534"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="sPass" value="zumEvyr"/>
+    <classes>
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers"/>
+    </classes>
+  </test> <!-- run on Firefox -->
+  <test name="run on Chrome">
+    <parameter name="sUser" value="mngr9226"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="sPass" value="zumEvyr"/>
+    <classes>
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers"/>
+    </classes>
+  </test> <!-- run on Chrome -->
+  <test name="run on IE">
+    <parameter name="sUser" value="test"/>
+    <parameter name="browser" value="IE"/>
+    <parameter name="sPass" value="testpass"/>
+    <classes>
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers"/>
+    </classes>
+  </test> <!-- run on IE -->
+  <test name="run on Firefox(failed)">
+    <parameter name="sUser" value="mngr96534"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="sPass" value="zumEvyr"/>
+    <classes>
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="Test1" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- webdriver_10_TestNG.TestNG_MultiBrowsers -->
+    </classes>
+  </test> <!-- run on Firefox(failed) -->
+  <test name="run on Chrome(failed)">
+    <parameter name="sUser" value="mngr9226"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="sPass" value="zumEvyr"/>
+    <classes>
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="Test1" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- webdriver_10_TestNG.TestNG_MultiBrowsers -->
+    </classes>
+  </test> <!-- run on Chrome(failed) -->
+  <test name="run on IE(failed)">
+    <parameter name="sUser" value="test"/>
+    <parameter name="browser" value="IE"/>
+    <parameter name="sPass" value="testpass"/>
+    <classes>
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="Test1" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- webdriver_10_TestNG.TestNG_MultiBrowsers -->
+    </classes>
+  </test> <!-- run on IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->

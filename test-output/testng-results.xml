@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Multi Browsers" duration-ms="33382" started-at="2017-10-02T17:12:04Z" finished-at="2017-10-02T17:12:38Z">
+    <groups>
+    </groups>
+    <test name="run on Chrome" duration-ms="19881" started-at="2017-10-02T17:12:04Z" finished-at="2017-10-02T17:12:24Z">
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers">
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webdriver_10_TestNG.TestNG_MultiBrowsers@2eee9593]" name="Test1" duration-ms="18435" started-at="2017-10-03T00:12:04Z" finished-at="2017-10-03T00:12:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mngr9226]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zumEvyr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver_10_TestNG.TestNG_MultiBrowsers@2eee9593]" name="afterTest" is-config="true" duration-ms="1427" started-at="2017-10-03T00:12:23Z" finished-at="2017-10-03T00:12:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- webdriver_10_TestNG.TestNG_MultiBrowsers -->
+    </test> <!-- run on Chrome -->
+    <test name="run on Firefox" duration-ms="25806" started-at="2017-10-02T17:12:04Z" finished-at="2017-10-02T17:12:30Z">
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers">
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webdriver_10_TestNG.TestNG_MultiBrowsers@25618e91]" name="Test1" duration-ms="25437" started-at="2017-10-03T00:12:04Z" finished-at="2017-10-03T00:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mngr96534]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zumEvyr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver_10_TestNG.TestNG_MultiBrowsers@25618e91]" name="afterTest" is-config="true" duration-ms="351" started-at="2017-10-03T00:12:30Z" finished-at="2017-10-03T00:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- webdriver_10_TestNG.TestNG_MultiBrowsers -->
+    </test> <!-- run on Firefox -->
+    <test name="run on IE" duration-ms="33382" started-at="2017-10-02T17:12:04Z" finished-at="2017-10-02T17:12:38Z">
+      <class name="webdriver_10_TestNG.TestNG_MultiBrowsers">
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webdriver_10_TestNG.TestNG_MultiBrowsers@6833ce2c]" name="Test1" duration-ms="14278" started-at="2017-10-03T00:12:04Z" finished-at="2017-10-03T00:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver_10_TestNG.TestNG_MultiBrowsers@6833ce2c]" name="afterTest" is-config="true" duration-ms="19085" started-at="2017-10-03T00:12:19Z" finished-at="2017-10-03T00:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- webdriver_10_TestNG.TestNG_MultiBrowsers -->
+    </test> <!-- run on IE -->
+  </suite> <!-- Multi Browsers -->
+</testng-results>
